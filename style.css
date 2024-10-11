@@ -56,7 +56,26 @@ body {
     /* 變形, 幅度為 .3rem (圓角矩形) */
     border-radius: .3rem;
     /* 過度動畫長度指定半秒鐘 */
-    transition: all .5s;
+    transition: all .5s;  
+}
+.btn:nth-child(2) {
+    background-color: lightcoral;
+    color: white;
+}
+
+.btn:nth-child(3) {
+    background-color: lightblue;
+    color: rgb(252, 251, 251);
+}
+
+.btn:nth-child(4) {
+    background-color: lightgreen;
+    color: rgb(253, 252, 252);
+}
+
+.btn:nth-child(5) {
+    background-color: lightgoldenrodyellow;
+    color: rgb(252, 250, 250);
 }
 
 /* 冒號的意思是選擇虛擬類別 */
